@@ -1,4 +1,7 @@
+// Importing
 import React from 'react';
+
+
 
 const Smurf = props => {
   return (
@@ -10,11 +13,23 @@ const Smurf = props => {
   );
 };
 
+
 Smurf.defaultProps = {
   name: '',
   height: '',
   age: ''
 };
+
+
+
+
+
+
+
+
+
+// Exporting
+
 
 export default Smurf;
 
